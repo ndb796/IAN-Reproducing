@@ -1,0 +1,2525 @@
+SLURM_SUBMIT_DIR=/home/dongbinna/adversarial-captcha
+CUDA_HOME=/opt/ohpc/pub/apps/cuda-10.0
+CUDA_VISIBLE_DEVICES=0,1,2,3
+CUDA_VERSION=10.0
+0: n16
+2: n16
+3: n16
+1: n16
+2: /home/dongbinna/adversarial-captcha
+3: /home/dongbinna/adversarial-captcha
+0: /home/dongbinna/adversarial-captcha
+1: /home/dongbinna/adversarial-captcha
+3: Mon Dec  9 11:23:19 KST 2019
+0: Mon Dec  9 11:23:19 KST 2019
+1: Mon Dec  9 11:23:19 KST 2019
+2: Mon Dec  9 11:23:19 KST 2019
+[ Python Program Start ]
+
+Epoch: 0
+Benign Accuracy:  0.1171875
+Loss: 2.3999712467193604
+Benign Accuracy:  0.09375
+Loss: 4.46116828918457
+Benign Accuracy:  0.06640625
+Loss: 2.6842551231384277
+Benign Accuracy:  0.07421875
+Loss: 2.7928614616394043
+Benign Accuracy:  0.1171875
+Loss: 2.4752914905548096
+Benign Accuracy:  0.078125
+Loss: 2.4391708374023438
+Benign Accuracy:  0.08203125
+Loss: 2.4022018909454346
+Benign Accuracy:  0.109375
+Loss: 2.3270561695098877
+Benign Accuracy:  0.109375
+Loss: 2.334318161010742
+Benign Accuracy:  0.06640625
+Loss: 2.307340621948242
+Benign Accuracy:  0.08984375
+Loss: 2.303945302963257
+Benign Accuracy:  0.1015625
+Loss: 2.294273853302002
+Benign Accuracy:  0.10546875
+Loss: 2.305178642272949
+Benign Accuracy:  0.08203125
+Loss: 2.311708450317383
+Benign Accuracy:  0.11328125
+Loss: 2.298046350479126
+Benign Accuracy:  0.14453125
+Loss: 2.2953720092773438
+Benign Accuracy:  0.1015625
+Loss: 2.2909531593322754
+Benign Accuracy:  0.12109375
+Loss: 2.2945356369018555
+Benign Accuracy:  0.12109375
+Loss: 2.306536912918091
+Benign Accuracy:  0.10546875
+Loss: 2.3013501167297363
+Benign Accuracy:  0.1640625
+Loss: 2.28385329246521
+Benign Accuracy:  0.125
+Loss: 2.292553186416626
+Benign Accuracy:  0.1328125
+Loss: 2.296340227127075
+Benign Accuracy:  0.1171875
+Loss: 2.280027389526367
+Benign Accuracy:  0.09765625
+Loss: 2.2884411811828613
+Benign Accuracy:  0.16015625
+Loss: 2.2919528484344482
+Benign Accuracy:  0.14453125
+Loss: 2.263575792312622
+Benign Accuracy:  0.11328125
+Loss: 2.282175302505493
+Benign Accuracy:  0.140625
+Loss: 2.2838199138641357
+Benign Accuracy:  0.12109375
+Loss: 2.2786529064178467
+Benign Accuracy:  0.16015625
+Loss: 2.281099796295166
+Benign Accuracy:  0.1328125
+Loss: 2.273566722869873
+Benign Accuracy:  0.15234375
+Loss: 2.2899553775787354
+Benign Accuracy:  0.12890625
+Loss: 2.2986631393432617
+Benign Accuracy:  0.1171875
+Loss: 2.2785701751708984
+Benign Accuracy:  0.1484375
+Loss: 2.3010659217834473
+Benign Accuracy:  0.12890625
+Loss: 2.2756824493408203
+Benign Accuracy:  0.12890625
+Loss: 2.276841163635254
+Benign Accuracy:  0.125
+Loss: 2.2435784339904785
+Benign Accuracy:  0.1875
+Loss: 2.292584180831909
+Total Accuarcy: 11.692
+Total Loss: 469.98835730552673
+Benign Accuracy:  0.1171875
+Loss: 2.271397113800049
+Benign Accuracy:  0.0546875
+Benign Accuracy:  0.125
+Benign Accuracy:  0.09375
+Benign Accuracy:  0.1171875
+Benign Accuracy:  0.0625
+Loss: 2.3502938747406006
+Benign Accuracy:  0.1171875
+Benign Accuracy:  0.1328125
+Benign Accuracy:  0.125
+Benign Accuracy:  0.125
+Benign Accuracy:  0.1484375
+Loss: 2.2841200828552246
+Benign Accuracy:  0.0625
+Benign Accuracy:  0.171875
+Benign Accuracy:  0.1171875
+Benign Accuracy:  0.125
+Benign Accuracy:  0.1171875
+Loss: 2.3278563022613525
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.125
+Benign Accuracy:  0.1015625
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.09375
+Loss: 2.363882303237915
+Benign Accuracy:  0.1015625
+Benign Accuracy:  0.15625
+Benign Accuracy:  0.109375
+Benign Accuracy:  0.0859375
+Benign Accuracy:  0.1171875
+Loss: 2.367480754852295
+Benign Accuracy:  0.0859375
+Benign Accuracy:  0.125
+Benign Accuracy:  0.125
+Benign Accuracy:  0.1171875
+Benign Accuracy:  0.078125
+Loss: 2.368112325668335
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.078125
+Benign Accuracy:  0.203125
+Benign Accuracy:  0.15625
+Benign Accuracy:  0.0859375
+Loss: 2.359863042831421
+Benign Accuracy:  0.109375
+Benign Accuracy:  0.125
+Benign Accuracy:  0.0859375
+Benign Accuracy:  0.1953125
+Benign Accuracy:  0.140625
+Loss: 2.2797248363494873
+Benign Accuracy:  0.15625
+Benign Accuracy:  0.1171875
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.0859375
+Benign Accuracy:  0.109375
+Loss: 2.3677268028259277
+Benign Accuracy:  0.0703125
+Benign Accuracy:  0.15625
+Benign Accuracy:  0.109375
+Benign Accuracy:  0.1015625
+Benign Accuracy:  0.125
+Loss: 2.3658368587493896
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.1328125
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.125
+Loss: 2.3592100143432617
+Benign Accuracy:  0.09375
+Benign Accuracy:  0.1953125
+Benign Accuracy:  0.109375
+Benign Accuracy:  0.15625
+Benign Accuracy:  0.078125
+Loss: 2.322962760925293
+Benign Accuracy:  0.109375
+Benign Accuracy:  0.109375
+Benign Accuracy:  0.1328125
+Benign Accuracy:  0.0625
+Benign Accuracy:  0.1171875
+Loss: 2.3068976402282715
+Benign Accuracy:  0.1015625
+Benign Accuracy:  0.1171875
+Benign Accuracy:  0.125
+Benign Accuracy:  0.15625
+Benign Accuracy:  0.1015625
+Loss: 2.370500326156616
+Benign Accuracy:  0.1328125
+Benign Accuracy:  0.09375
+Benign Accuracy:  0.1640625
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.125
+Loss: 2.3561224937438965
+Benign Accuracy:  0.09375
+Benign Accuracy:  0.078125
+Benign Accuracy:  0.125
+Total Benign Accuarcy: 11.95
+Total Benign Loss: 184.4123730659485
+Model Saved
+
+Epoch: 1
+Benign Accuracy:  0.171875
+Loss: 2.293886661529541
+Benign Accuracy:  0.15625
+Loss: 2.2760558128356934
+Benign Accuracy:  0.10546875
+Loss: 2.3026576042175293
+Benign Accuracy:  0.13671875
+Loss: 2.2820310592651367
+Benign Accuracy:  0.12109375
+Loss: 2.2585065364837646
+Benign Accuracy:  0.10546875
+Loss: 2.3122594356536865
+Benign Accuracy:  0.11328125
+Loss: 2.296452522277832
+Benign Accuracy:  0.1015625
+Loss: 2.291013479232788
+Benign Accuracy:  0.09765625
+Loss: 2.2931337356567383
+Benign Accuracy:  0.12890625
+Loss: 2.2969393730163574
+Benign Accuracy:  0.12109375
+Loss: 2.3164477348327637
+Benign Accuracy:  0.1328125
+Loss: 2.303452968597412
+Benign Accuracy:  0.140625
+Loss: 2.297827959060669
+Benign Accuracy:  0.14453125
+Loss: 2.242504119873047
+Benign Accuracy:  0.15234375
+Loss: 2.27060604095459
+Benign Accuracy:  0.1484375
+Loss: 2.280817985534668
+Benign Accuracy:  0.16015625
+Loss: 2.2641139030456543
+Benign Accuracy:  0.12890625
+Loss: 2.2857890129089355
+Benign Accuracy:  0.13671875
+Loss: 2.268173933029175
+Benign Accuracy:  0.1484375
+Loss: 2.2663328647613525
+Benign Accuracy:  0.1171875
+Loss: 2.291654348373413
+Benign Accuracy:  0.12890625
+Loss: 2.290142774581909
+Benign Accuracy:  0.140625
+Loss: 2.280763626098633
+Benign Accuracy:  0.15625
+Loss: 2.2677388191223145
+Benign Accuracy:  0.1640625
+Loss: 2.269829750061035
+Benign Accuracy:  0.16015625
+Loss: 2.2552385330200195
+Benign Accuracy:  0.15625
+Loss: 2.2696735858917236
+Benign Accuracy:  0.15625
+Loss: 2.2755212783813477
+Benign Accuracy:  0.140625
+Loss: 2.2932703495025635
+Benign Accuracy:  0.10546875
+Loss: 2.295222282409668
+Benign Accuracy:  0.1328125
+Loss: 2.2889888286590576
+Benign Accuracy:  0.14453125
+Loss: 2.2877390384674072
+Benign Accuracy:  0.1328125
+Loss: 2.2721245288848877
+Benign Accuracy:  0.1328125
+Loss: 2.2738544940948486
+Benign Accuracy:  0.1328125
+Loss: 2.262144088745117
+Benign Accuracy:  0.16015625
+Loss: 2.2643070220947266
+Benign Accuracy:  0.16796875
+Loss: 2.2421324253082275
+Benign Accuracy:  0.171875
+Loss: 2.28120756149292
+Benign Accuracy:  0.19140625
+Loss: 2.2404167652130127
+Benign Accuracy:  0.1125
+Loss: 2.3103911876678467
+Total Accuarcy: 13.418
+Total Loss: 446.5085515975952
+Benign Accuracy:  0.1328125
+Loss: 2.294245719909668
+Benign Accuracy:  0.125
+Benign Accuracy:  0.1171875
+Benign Accuracy:  0.125
+Benign Accuracy:  0.1171875
+Benign Accuracy:  0.125
+Loss: 2.2958245277404785
+Benign Accuracy:  0.1640625
+Benign Accuracy:  0.1796875
+Benign Accuracy:  0.1953125
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.0859375
+Loss: 2.318741798400879
+Benign Accuracy:  0.0859375
+Benign Accuracy:  0.1640625
+Benign Accuracy:  0.1328125
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.125
+Loss: 2.256572961807251
+Benign Accuracy:  0.0703125
+Benign Accuracy:  0.1328125
+Benign Accuracy:  0.1640625
+Benign Accuracy:  0.09375
+Benign Accuracy:  0.125
+Loss: 2.316585063934326
+Benign Accuracy:  0.09375
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.1640625
+Benign Accuracy:  0.15625
+Loss: 2.2434563636779785
+Benign Accuracy:  0.09375
+Benign Accuracy:  0.1875
+Benign Accuracy:  0.0703125
+Benign Accuracy:  0.15625
+Benign Accuracy:  0.140625
+Loss: 2.2893011569976807
+Benign Accuracy:  0.125
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.125
+Benign Accuracy:  0.1171875
+Benign Accuracy:  0.1328125
+Loss: 2.2610881328582764
+Benign Accuracy:  0.125
+Benign Accuracy:  0.15625
+Benign Accuracy:  0.0859375
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.140625
+Loss: 2.2693679332733154
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.125
+Benign Accuracy:  0.15625
+Benign Accuracy:  0.1328125
+Benign Accuracy:  0.109375
+Loss: 2.268044948577881
+Benign Accuracy:  0.109375
+Benign Accuracy:  0.1171875
+Benign Accuracy:  0.109375
+Benign Accuracy:  0.1015625
+Benign Accuracy:  0.171875
+Loss: 2.273833751678467
+Benign Accuracy:  0.1171875
+Benign Accuracy:  0.1171875
+Benign Accuracy:  0.1328125
+Benign Accuracy:  0.1328125
+Benign Accuracy:  0.125
+Loss: 2.3609533309936523
+Benign Accuracy:  0.109375
+Benign Accuracy:  0.125
+Benign Accuracy:  0.125
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.15625
+Loss: 2.2704782485961914
+Benign Accuracy:  0.1640625
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.1875
+Benign Accuracy:  0.1171875
+Benign Accuracy:  0.1640625
+Loss: 2.2774581909179688
+Benign Accuracy:  0.09375
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.1171875
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.125
+Loss: 2.2765872478485107
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.109375
+Benign Accuracy:  0.125
+Benign Accuracy:  0.0703125
+Benign Accuracy:  0.15625
+Loss: 2.2752468585968018
+Benign Accuracy:  0.109375
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.0625
+Total Benign Accuarcy: 13.11
+Total Benign Loss: 180.51551961898804
+Model Saved
+
+Epoch: 2
+Benign Accuracy:  0.12109375
+Loss: 2.295783042907715
+Benign Accuracy:  0.15625
+Loss: 2.25172758102417
+Benign Accuracy:  0.1015625
+Loss: 2.2512264251708984
+Benign Accuracy:  0.1328125
+Loss: 2.2462472915649414
+Benign Accuracy:  0.1328125
+Loss: 2.2777719497680664
+Benign Accuracy:  0.16015625
+Loss: 2.245741605758667
+Benign Accuracy:  0.1796875
+Loss: 2.2734928131103516
+Benign Accuracy:  0.13671875
+Loss: 2.278620481491089
+Benign Accuracy:  0.125
+Loss: 2.2806437015533447
+Benign Accuracy:  0.12890625
+Loss: 2.2531754970550537
+Benign Accuracy:  0.1796875
+Loss: 2.235238552093506
+Benign Accuracy:  0.16015625
+Loss: 2.2502453327178955
+Benign Accuracy:  0.09375
+Loss: 2.3024749755859375
+Benign Accuracy:  0.09375
+Loss: 2.296600818634033
+Benign Accuracy:  0.1328125
+Loss: 2.268299102783203
+Benign Accuracy:  0.12890625
+Loss: 2.2675411701202393
+Benign Accuracy:  0.125
+Loss: 2.2798783779144287
+Benign Accuracy:  0.14453125
+Loss: 2.2539548873901367
+Benign Accuracy:  0.1484375
+Loss: 2.255699634552002
+Benign Accuracy:  0.125
+Loss: 2.290719747543335
+Benign Accuracy:  0.12109375
+Loss: 2.296997547149658
+Benign Accuracy:  0.15234375
+Loss: 2.262824535369873
+Benign Accuracy:  0.1328125
+Loss: 2.295138120651245
+Benign Accuracy:  0.13671875
+Loss: 2.257362127304077
+Benign Accuracy:  0.1171875
+Loss: 2.291989803314209
+Benign Accuracy:  0.14453125
+Loss: 2.2552597522735596
+Benign Accuracy:  0.125
+Loss: 2.2901337146759033
+Benign Accuracy:  0.140625
+Loss: 2.281061887741089
+Benign Accuracy:  0.11328125
+Loss: 2.275665044784546
+Benign Accuracy:  0.12109375
+Loss: 2.2822632789611816
+Benign Accuracy:  0.140625
+Loss: 2.266594409942627
+Benign Accuracy:  0.1328125
+Loss: 2.2739295959472656
+Benign Accuracy:  0.140625
+Loss: 2.2929580211639404
+Benign Accuracy:  0.1875
+Loss: 2.2497212886810303
+Benign Accuracy:  0.22265625
+Loss: 2.216980218887329
+Benign Accuracy:  0.1640625
+Loss: 2.251042127609253
+Benign Accuracy:  0.15234375
+Loss: 2.2587811946868896
+Benign Accuracy:  0.125
+Loss: 2.265087842941284
+Benign Accuracy:  0.16015625
+Loss: 2.2531588077545166
+Benign Accuracy:  0.1375
+Loss: 2.276942014694214
+Total Accuarcy: 13.926
+Total Loss: 444.9636449813843
+Benign Accuracy:  0.078125
+Loss: 2.3731749057769775
+Benign Accuracy:  0.1640625
+Benign Accuracy:  0.09375
+Benign Accuracy:  0.0546875
+Benign Accuracy:  0.1171875
+Benign Accuracy:  0.0625
+Loss: 2.4201550483703613
+Benign Accuracy:  0.125
+Benign Accuracy:  0.09375
+Benign Accuracy:  0.109375
+Benign Accuracy:  0.1171875
+Benign Accuracy:  0.0859375
+Loss: 2.405475616455078
+Benign Accuracy:  0.0625
+Benign Accuracy:  0.15625
+Benign Accuracy:  0.09375
+Benign Accuracy:  0.1328125
+Benign Accuracy:  0.109375
+Loss: 2.3454809188842773
+Benign Accuracy:  0.125
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.0859375
+Benign Accuracy:  0.09375
+Benign Accuracy:  0.09375
+Loss: 2.4169654846191406
+Benign Accuracy:  0.0703125
+Benign Accuracy:  0.078125
+Benign Accuracy:  0.125
+Benign Accuracy:  0.1328125
+Benign Accuracy:  0.078125
+Loss: 2.3887970447540283
+Benign Accuracy:  0.1328125
+Benign Accuracy:  0.109375
+Benign Accuracy:  0.078125
+Benign Accuracy:  0.0859375
+Benign Accuracy:  0.09375
+Loss: 2.3510029315948486
+Benign Accuracy:  0.109375
+Benign Accuracy:  0.0859375
+Benign Accuracy:  0.1015625
+Benign Accuracy:  0.0625
+Benign Accuracy:  0.0859375
+Loss: 2.3581759929656982
+Benign Accuracy:  0.109375
+Benign Accuracy:  0.078125
+Benign Accuracy:  0.1171875
+Benign Accuracy:  0.1015625
+Benign Accuracy:  0.0625
+Loss: 2.3534095287323
+Benign Accuracy:  0.09375
+Benign Accuracy:  0.125
+Benign Accuracy:  0.09375
+Benign Accuracy:  0.1015625
+Benign Accuracy:  0.1015625
+Loss: 2.3985531330108643
+Benign Accuracy:  0.171875
+Benign Accuracy:  0.1171875
+Benign Accuracy:  0.078125
+Benign Accuracy:  0.09375
+Benign Accuracy:  0.1171875
+Loss: 2.3524668216705322
+Benign Accuracy:  0.1328125
+Benign Accuracy:  0.109375
+Benign Accuracy:  0.1640625
+Benign Accuracy:  0.125
+Benign Accuracy:  0.09375
+Loss: 2.3679821491241455
+Benign Accuracy:  0.0859375
+Benign Accuracy:  0.046875
+Benign Accuracy:  0.0703125
+Benign Accuracy:  0.078125
+Benign Accuracy:  0.09375
+Loss: 2.355525016784668
+Benign Accuracy:  0.0859375
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.0859375
+Benign Accuracy:  0.1328125
+Benign Accuracy:  0.078125
+Loss: 2.4257583618164062
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.15625
+Benign Accuracy:  0.0546875
+Benign Accuracy:  0.1328125
+Benign Accuracy:  0.0859375
+Loss: 2.4110758304595947
+Benign Accuracy:  0.1015625
+Benign Accuracy:  0.0625
+Benign Accuracy:  0.0859375
+Benign Accuracy:  0.09375
+Benign Accuracy:  0.0859375
+Loss: 2.4501445293426514
+Benign Accuracy:  0.078125
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.0625
+Total Benign Accuarcy: 10.17
+Total Benign Loss: 188.23215126991272
+Model Saved
+
+Epoch: 3
+Benign Accuracy:  0.125
+Loss: 2.2887349128723145
+Benign Accuracy:  0.16015625
+Loss: 2.2561309337615967
+Benign Accuracy:  0.16015625
+Loss: 2.26031494140625
+Benign Accuracy:  0.13671875
+Loss: 2.268488883972168
+Benign Accuracy:  0.13671875
+Loss: 2.273982286453247
+Benign Accuracy:  0.09765625
+Loss: 2.309285879135132
+Benign Accuracy:  0.140625
+Loss: 2.267751693725586
+Benign Accuracy:  0.14453125
+Loss: 2.266366958618164
+Benign Accuracy:  0.14453125
+Loss: 2.2498342990875244
+Benign Accuracy:  0.13671875
+Loss: 2.2665436267852783
+Benign Accuracy:  0.140625
+Loss: 2.263542652130127
+Benign Accuracy:  0.17578125
+Loss: 2.2373764514923096
+Benign Accuracy:  0.1640625
+Loss: 2.2833433151245117
+Benign Accuracy:  0.1484375
+Loss: 2.2707555294036865
+Benign Accuracy:  0.16796875
+Loss: 2.262038230895996
+Benign Accuracy:  0.09765625
+Loss: 2.298208475112915
+Benign Accuracy:  0.12890625
+Loss: 2.255399465560913
+Benign Accuracy:  0.1328125
+Loss: 2.275942325592041
+Benign Accuracy:  0.15234375
+Loss: 2.2365634441375732
+Benign Accuracy:  0.1484375
+Loss: 2.274264335632324
+Benign Accuracy:  0.1640625
+Loss: 2.249725818634033
+Benign Accuracy:  0.1328125
+Loss: 2.2834627628326416
+Benign Accuracy:  0.109375
+Loss: 2.273453712463379
+Benign Accuracy:  0.13671875
+Loss: 2.2815020084381104
+Benign Accuracy:  0.1015625
+Loss: 2.2865653038024902
+Benign Accuracy:  0.13671875
+Loss: 2.258396863937378
+Benign Accuracy:  0.15234375
+Loss: 2.2335703372955322
+Benign Accuracy:  0.1640625
+Loss: 2.2601850032806396
+Benign Accuracy:  0.140625
+Loss: 2.25184965133667
+Benign Accuracy:  0.171875
+Loss: 2.2400922775268555
+Benign Accuracy:  0.19921875
+Loss: 2.256859540939331
+Benign Accuracy:  0.125
+Loss: 2.2723073959350586
+Benign Accuracy:  0.1875
+Loss: 2.257387161254883
+Benign Accuracy:  0.12890625
+Loss: 2.2772350311279297
+Benign Accuracy:  0.140625
+Loss: 2.2886269092559814
+Benign Accuracy:  0.1796875
+Loss: 2.2315351963043213
+Benign Accuracy:  0.16015625
+Loss: 2.2413127422332764
+Benign Accuracy:  0.15625
+Loss: 2.265399217605591
+Benign Accuracy:  0.1484375
+Loss: 2.285461664199829
+Benign Accuracy:  0.1125
+Loss: 2.295858383178711
+Total Accuarcy: 14.228
+Total Loss: 444.54802775382996
+Benign Accuracy:  0.0859375
+Loss: 2.500837802886963
+Benign Accuracy:  0.1171875
+Benign Accuracy:  0.1171875
+Benign Accuracy:  0.171875
+Benign Accuracy:  0.09375
+Benign Accuracy:  0.1484375
+Loss: 2.4541172981262207
+Benign Accuracy:  0.0703125
+Benign Accuracy:  0.078125
+Benign Accuracy:  0.1171875
+Benign Accuracy:  0.109375
+Benign Accuracy:  0.109375
+Loss: 2.46744966506958
+Benign Accuracy:  0.1796875
+Benign Accuracy:  0.109375
+Benign Accuracy:  0.0859375
+Benign Accuracy:  0.0703125
+Benign Accuracy:  0.125
+Loss: 2.372401475906372
+Benign Accuracy:  0.078125
+Benign Accuracy:  0.125
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.09375
+Benign Accuracy:  0.1015625
+Loss: 2.373084783554077
+Benign Accuracy:  0.1015625
+Benign Accuracy:  0.1171875
+Benign Accuracy:  0.0859375
+Benign Accuracy:  0.078125
+Benign Accuracy:  0.109375
+Loss: 2.4093854427337646
+Benign Accuracy:  0.1171875
+Benign Accuracy:  0.09375
+Benign Accuracy:  0.0703125
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.0546875
+Loss: 2.583423614501953
+Benign Accuracy:  0.1015625
+Benign Accuracy:  0.109375
+Benign Accuracy:  0.03125
+Benign Accuracy:  0.1328125
+Benign Accuracy:  0.078125
+Loss: 2.5045387744903564
+Benign Accuracy:  0.125
+Benign Accuracy:  0.125
+Benign Accuracy:  0.1640625
+Benign Accuracy:  0.09375
+Benign Accuracy:  0.0859375
+Loss: 2.5097875595092773
+Benign Accuracy:  0.0703125
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.0546875
+Benign Accuracy:  0.125
+Benign Accuracy:  0.140625
+Loss: 2.3828823566436768
+Benign Accuracy:  0.0703125
+Benign Accuracy:  0.109375
+Benign Accuracy:  0.078125
+Benign Accuracy:  0.078125
+Benign Accuracy:  0.1328125
+Loss: 2.5092546939849854
+Benign Accuracy:  0.0703125
+Benign Accuracy:  0.109375
+Benign Accuracy:  0.0859375
+Benign Accuracy:  0.1171875
+Benign Accuracy:  0.0546875
+Loss: 2.5711169242858887
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.0703125
+Benign Accuracy:  0.1171875
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.1171875
+Loss: 2.4636518955230713
+Benign Accuracy:  0.046875
+Benign Accuracy:  0.078125
+Benign Accuracy:  0.0546875
+Benign Accuracy:  0.1171875
+Benign Accuracy:  0.1484375
+Loss: 2.3949973583221436
+Benign Accuracy:  0.0859375
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.1015625
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.1171875
+Loss: 2.4414584636688232
+Benign Accuracy:  0.0859375
+Benign Accuracy:  0.109375
+Benign Accuracy:  0.0859375
+Benign Accuracy:  0.1015625
+Benign Accuracy:  0.1171875
+Loss: 2.4719629287719727
+Benign Accuracy:  0.109375
+Benign Accuracy:  0.09375
+Benign Accuracy:  0.125
+Total Benign Accuarcy: 10.41
+Total Benign Loss: 195.0972650051117
+Model Saved
+
+Epoch: 4
+Benign Accuracy:  0.15234375
+Loss: 2.263373851776123
+Benign Accuracy:  0.1328125
+Loss: 2.2610161304473877
+Benign Accuracy:  0.140625
+Loss: 2.242133855819702
+Benign Accuracy:  0.13671875
+Loss: 2.2606141567230225
+Benign Accuracy:  0.171875
+Loss: 2.255382776260376
+Benign Accuracy:  0.125
+Loss: 2.2551443576812744
+Benign Accuracy:  0.17578125
+Loss: 2.264483690261841
+Benign Accuracy:  0.15234375
+Loss: 2.25956654548645
+Benign Accuracy:  0.171875
+Loss: 2.243720293045044
+Benign Accuracy:  0.1328125
+Loss: 2.253380060195923
+Benign Accuracy:  0.13671875
+Loss: 2.294502019882202
+Benign Accuracy:  0.171875
+Loss: 2.2614893913269043
+Benign Accuracy:  0.17578125
+Loss: 2.2705800533294678
+Benign Accuracy:  0.1640625
+Loss: 2.2689459323883057
+Benign Accuracy:  0.12890625
+Loss: 2.2622578144073486
+Benign Accuracy:  0.16015625
+Loss: 2.241441011428833
+Benign Accuracy:  0.12890625
+Loss: 2.2411582469940186
+Benign Accuracy:  0.1328125
+Loss: 2.254713296890259
+Benign Accuracy:  0.18359375
+Loss: 2.2396724224090576
+Benign Accuracy:  0.12890625
+Loss: 2.267965316772461
+Benign Accuracy:  0.171875
+Loss: 2.275385856628418
+Benign Accuracy:  0.140625
+Loss: 2.2516684532165527
+Benign Accuracy:  0.16796875
+Loss: 2.264895439147949
+Benign Accuracy:  0.13671875
+Loss: 2.2793331146240234
+Benign Accuracy:  0.15625
+Loss: 2.2657036781311035
+Benign Accuracy:  0.171875
+Loss: 2.2729907035827637
+Benign Accuracy:  0.15625
+Loss: 2.283707857131958
+Benign Accuracy:  0.140625
+Loss: 2.2313830852508545
+Benign Accuracy:  0.140625
+Loss: 2.2662527561187744
+Benign Accuracy:  0.1796875
+Loss: 2.2570173740386963
+Benign Accuracy:  0.11328125
+Loss: 2.2892537117004395
+Benign Accuracy:  0.1640625
+Loss: 2.2261815071105957
+Benign Accuracy:  0.18359375
+Loss: 2.245314121246338
+Benign Accuracy:  0.15234375
+Loss: 2.2734603881835938
+Benign Accuracy:  0.1484375
+Loss: 2.230231285095215
+Benign Accuracy:  0.1640625
+Loss: 2.261176586151123
+Benign Accuracy:  0.109375
+Loss: 2.288280487060547
+Benign Accuracy:  0.140625
+Loss: 2.2749147415161133
+Benign Accuracy:  0.14453125
+Loss: 2.2562296390533447
+Benign Accuracy:  0.1375
+Loss: 2.272639513015747
+Total Accuarcy: 14.874
+Total Loss: 443.28413367271423
+Benign Accuracy:  0.125
+Loss: 2.327943801879883
+Benign Accuracy:  0.078125
+Benign Accuracy:  0.0859375
+Benign Accuracy:  0.1328125
+Benign Accuracy:  0.1875
+Benign Accuracy:  0.15625
+Loss: 2.276038885116577
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.125
+Benign Accuracy:  0.1015625
+Benign Accuracy:  0.1328125
+Benign Accuracy:  0.1640625
+Loss: 2.329606056213379
+Benign Accuracy:  0.109375
+Benign Accuracy:  0.1015625
+Benign Accuracy:  0.125
+Benign Accuracy:  0.125
+Benign Accuracy:  0.1484375
+Loss: 2.245687484741211
+Benign Accuracy:  0.1328125
+Benign Accuracy:  0.109375
+Benign Accuracy:  0.1640625
+Benign Accuracy:  0.109375
+Benign Accuracy:  0.078125
+Loss: 2.3220810890197754
+Benign Accuracy:  0.1796875
+Benign Accuracy:  0.1015625
+Benign Accuracy:  0.1640625
+Benign Accuracy:  0.109375
+Benign Accuracy:  0.125
+Loss: 2.3765950202941895
+Benign Accuracy:  0.15625
+Benign Accuracy:  0.1640625
+Benign Accuracy:  0.15625
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.0859375
+Loss: 2.387967824935913
+Benign Accuracy:  0.1015625
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.1015625
+Loss: 2.331490993499756
+Benign Accuracy:  0.125
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.1171875
+Benign Accuracy:  0.125
+Benign Accuracy:  0.1796875
+Loss: 2.29545521736145
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.1796875
+Benign Accuracy:  0.1328125
+Benign Accuracy:  0.109375
+Benign Accuracy:  0.171875
+Loss: 2.2759556770324707
+Benign Accuracy:  0.125
+Benign Accuracy:  0.15625
+Benign Accuracy:  0.1328125
+Benign Accuracy:  0.15625
+Benign Accuracy:  0.1015625
+Loss: 2.372586488723755
+Benign Accuracy:  0.171875
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.078125
+Benign Accuracy:  0.1796875
+Benign Accuracy:  0.140625
+Loss: 2.3482494354248047
+Benign Accuracy:  0.125
+Benign Accuracy:  0.1171875
+Benign Accuracy:  0.1640625
+Benign Accuracy:  0.125
+Benign Accuracy:  0.09375
+Loss: 2.320477247238159
+Benign Accuracy:  0.1171875
+Benign Accuracy:  0.1796875
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.15625
+Benign Accuracy:  0.1484375
+Loss: 2.3091073036193848
+Benign Accuracy:  0.171875
+Benign Accuracy:  0.171875
+Benign Accuracy:  0.1875
+Benign Accuracy:  0.1640625
+Benign Accuracy:  0.1328125
+Loss: 2.3850252628326416
+Benign Accuracy:  0.1328125
+Benign Accuracy:  0.1640625
+Benign Accuracy:  0.1171875
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.1484375
+Loss: 2.2797884941101074
+Benign Accuracy:  0.1640625
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.1875
+Total Benign Accuarcy: 13.72
+Total Benign Loss: 182.52065443992615
+Model Saved
+
+Epoch: 5
+Benign Accuracy:  0.10546875
+Loss: 2.279557943344116
+Benign Accuracy:  0.19140625
+Loss: 2.2559406757354736
+Benign Accuracy:  0.171875
+Loss: 2.289834499359131
+Benign Accuracy:  0.125
+Loss: 2.264216899871826
+Benign Accuracy:  0.13671875
+Loss: 2.2874648571014404
+Benign Accuracy:  0.1796875
+Loss: 2.2628426551818848
+Benign Accuracy:  0.07421875
+Loss: 2.2573063373565674
+Benign Accuracy:  0.1796875
+Loss: 2.259181022644043
+Benign Accuracy:  0.1796875
+Loss: 2.2289044857025146
+Benign Accuracy:  0.11328125
+Loss: 2.2943105697631836
+Benign Accuracy:  0.140625
+Loss: 2.280149221420288
+Benign Accuracy:  0.1640625
+Loss: 2.2238993644714355
+Benign Accuracy:  0.17578125
+Loss: 2.2216761112213135
+Benign Accuracy:  0.15234375
+Loss: 2.2595109939575195
+Benign Accuracy:  0.15234375
+Loss: 2.246929407119751
+Benign Accuracy:  0.12890625
+Loss: 2.247699499130249
+Benign Accuracy:  0.15234375
+Loss: 2.234517812728882
+Benign Accuracy:  0.16796875
+Loss: 2.2342236042022705
+Benign Accuracy:  0.1875
+Loss: 2.262568712234497
+Benign Accuracy:  0.17578125
+Loss: 2.238495111465454
+Benign Accuracy:  0.140625
+Loss: 2.275114059448242
+Benign Accuracy:  0.17578125
+Loss: 2.2355828285217285
+Benign Accuracy:  0.16015625
+Loss: 2.2575676441192627
+Benign Accuracy:  0.15625
+Loss: 2.2520108222961426
+Benign Accuracy:  0.15625
+Loss: 2.2549281120300293
+Benign Accuracy:  0.1328125
+Loss: 2.2704060077667236
+Benign Accuracy:  0.14453125
+Loss: 2.2625629901885986
+Benign Accuracy:  0.14453125
+Loss: 2.2678627967834473
+Benign Accuracy:  0.17578125
+Loss: 2.252934455871582
+Benign Accuracy:  0.1484375
+Loss: 2.2644267082214355
+Benign Accuracy:  0.1953125
+Loss: 2.2507553100585938
+Benign Accuracy:  0.12890625
+Loss: 2.266411542892456
+Benign Accuracy:  0.125
+Loss: 2.250852346420288
+Benign Accuracy:  0.140625
+Loss: 2.263950824737549
+Benign Accuracy:  0.16015625
+Loss: 2.249354124069214
+Benign Accuracy:  0.16796875
+Loss: 2.2628936767578125
+Benign Accuracy:  0.10546875
+Loss: 2.2790000438690186
+Benign Accuracy:  0.15625
+Loss: 2.261976480484009
+Benign Accuracy:  0.14453125
+Loss: 2.2288331985473633
+Benign Accuracy:  0.2
+Loss: 2.2723188400268555
+Total Accuarcy: 15.02
+Total Loss: 443.08678936958313
+Benign Accuracy:  0.1484375
+Loss: 2.281575918197632
+Benign Accuracy:  0.109375
+Benign Accuracy:  0.09375
+Benign Accuracy:  0.109375
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.0859375
+Loss: 2.3254165649414062
+Benign Accuracy:  0.1328125
+Benign Accuracy:  0.1328125
+Benign Accuracy:  0.0703125
+Benign Accuracy:  0.1796875
+Benign Accuracy:  0.1328125
+Loss: 2.3214595317840576
+Benign Accuracy:  0.078125
+Benign Accuracy:  0.1640625
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.109375
+Benign Accuracy:  0.1015625
+Loss: 2.291217088699341
+Benign Accuracy:  0.1171875
+Benign Accuracy:  0.1171875
+Benign Accuracy:  0.1171875
+Benign Accuracy:  0.1875
+Benign Accuracy:  0.125
+Loss: 2.303866386413574
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.1015625
+Benign Accuracy:  0.109375
+Benign Accuracy:  0.1015625
+Benign Accuracy:  0.1015625
+Loss: 2.3864927291870117
+Benign Accuracy:  0.0859375
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.171875
+Benign Accuracy:  0.109375
+Loss: 2.322868585586548
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.1328125
+Benign Accuracy:  0.125
+Benign Accuracy:  0.1328125
+Loss: 2.28639554977417
+Benign Accuracy:  0.1796875
+Benign Accuracy:  0.125
+Benign Accuracy:  0.109375
+Benign Accuracy:  0.125
+Benign Accuracy:  0.1328125
+Loss: 2.324523687362671
+Benign Accuracy:  0.109375
+Benign Accuracy:  0.09375
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.1328125
+Benign Accuracy:  0.1171875
+Loss: 2.332171678543091
+Benign Accuracy:  0.1171875
+Benign Accuracy:  0.09375
+Benign Accuracy:  0.078125
+Benign Accuracy:  0.125
+Benign Accuracy:  0.140625
+Loss: 2.2860469818115234
+Benign Accuracy:  0.125
+Benign Accuracy:  0.1015625
+Benign Accuracy:  0.125
+Benign Accuracy:  0.109375
+Benign Accuracy:  0.1171875
+Loss: 2.32808518409729
+Benign Accuracy:  0.125
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.171875
+Benign Accuracy:  0.140625
+Loss: 2.3149898052215576
+Benign Accuracy:  0.1015625
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.109375
+Benign Accuracy:  0.1171875
+Loss: 2.307565212249756
+Benign Accuracy:  0.1015625
+Benign Accuracy:  0.1328125
+Benign Accuracy:  0.125
+Benign Accuracy:  0.0859375
+Benign Accuracy:  0.1171875
+Loss: 2.3161230087280273
+Benign Accuracy:  0.1015625
+Benign Accuracy:  0.15625
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.0625
+Benign Accuracy:  0.0703125
+Loss: 2.2991693019866943
+Benign Accuracy:  0.109375
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.0625
+Total Benign Accuarcy: 12.3
+Total Benign Loss: 182.3974244594574
+Model Saved
+
+Epoch: 6
+Benign Accuracy:  0.19140625
+Loss: 2.2616889476776123
+Benign Accuracy:  0.14453125
+Loss: 2.2315473556518555
+Benign Accuracy:  0.171875
+Loss: 2.2639882564544678
+Benign Accuracy:  0.1015625
+Loss: 2.264037609100342
+Benign Accuracy:  0.1484375
+Loss: 2.2490975856781006
+Benign Accuracy:  0.15234375
+Loss: 2.227071762084961
+Benign Accuracy:  0.12890625
+Loss: 2.271951198577881
+Benign Accuracy:  0.140625
+Loss: 2.224838972091675
+Benign Accuracy:  0.16796875
+Loss: 2.2533318996429443
+Benign Accuracy:  0.15234375
+Loss: 2.2673306465148926
+Benign Accuracy:  0.125
+Loss: 2.2698559761047363
+Benign Accuracy:  0.17578125
+Loss: 2.229231119155884
+Benign Accuracy:  0.16796875
+Loss: 2.2355074882507324
+Benign Accuracy:  0.1640625
+Loss: 2.248234987258911
+Benign Accuracy:  0.140625
+Loss: 2.2786269187927246
+Benign Accuracy:  0.16015625
+Loss: 2.275266647338867
+Benign Accuracy:  0.1484375
+Loss: 2.2584033012390137
+Benign Accuracy:  0.125
+Loss: 2.285322427749634
+Benign Accuracy:  0.12109375
+Loss: 2.2727744579315186
+Benign Accuracy:  0.15625
+Loss: 2.2537593841552734
+Benign Accuracy:  0.140625
+Loss: 2.301345109939575
+Benign Accuracy:  0.15625
+Loss: 2.235964298248291
+Benign Accuracy:  0.12890625
+Loss: 2.244985580444336
+Benign Accuracy:  0.16015625
+Loss: 2.270533561706543
+Benign Accuracy:  0.1875
+Loss: 2.255784273147583
+Benign Accuracy:  0.16015625
+Loss: 2.2483696937561035
+Benign Accuracy:  0.11328125
+Loss: 2.257100820541382
+Benign Accuracy:  0.15234375
+Loss: 2.275883197784424
+Benign Accuracy:  0.16796875
+Loss: 2.2438430786132812
+Benign Accuracy:  0.18359375
+Loss: 2.240720510482788
+Benign Accuracy:  0.16015625
+Loss: 2.259286642074585
+Benign Accuracy:  0.1796875
+Loss: 2.2606000900268555
+Benign Accuracy:  0.1328125
+Loss: 2.251028299331665
+Benign Accuracy:  0.16796875
+Loss: 2.2494354248046875
+Benign Accuracy:  0.12890625
+Loss: 2.2554030418395996
+Benign Accuracy:  0.12890625
+Loss: 2.280688762664795
+Benign Accuracy:  0.1640625
+Loss: 2.2643160820007324
+Benign Accuracy:  0.140625
+Loss: 2.2580010890960693
+Benign Accuracy:  0.16015625
+Loss: 2.236135482788086
+Benign Accuracy:  0.225
+Loss: 2.209777355194092
+Total Accuarcy: 15.084
+Total Loss: 442.44728922843933
+Benign Accuracy:  0.109375
+Loss: 2.357706308364868
+Benign Accuracy:  0.1171875
+Benign Accuracy:  0.1640625
+Benign Accuracy:  0.078125
+Benign Accuracy:  0.0859375
+Benign Accuracy:  0.1953125
+Loss: 2.2720651626586914
+Benign Accuracy:  0.1328125
+Benign Accuracy:  0.078125
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.171875
+Benign Accuracy:  0.0703125
+Loss: 2.4041688442230225
+Benign Accuracy:  0.1875
+Benign Accuracy:  0.0625
+Benign Accuracy:  0.0625
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.1328125
+Loss: 2.3167974948883057
+Benign Accuracy:  0.078125
+Benign Accuracy:  0.1171875
+Benign Accuracy:  0.109375
+Benign Accuracy:  0.1328125
+Benign Accuracy:  0.15625
+Loss: 2.3838908672332764
+Benign Accuracy:  0.1015625
+Benign Accuracy:  0.1171875
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.1171875
+Benign Accuracy:  0.1796875
+Loss: 2.311912775039673
+Benign Accuracy:  0.078125
+Benign Accuracy:  0.09375
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.1328125
+Benign Accuracy:  0.1015625
+Loss: 2.3922536373138428
+Benign Accuracy:  0.1328125
+Benign Accuracy:  0.09375
+Benign Accuracy:  0.0859375
+Benign Accuracy:  0.1328125
+Benign Accuracy:  0.0859375
+Loss: 2.3503830432891846
+Benign Accuracy:  0.109375
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.1328125
+Benign Accuracy:  0.078125
+Benign Accuracy:  0.140625
+Loss: 2.3633551597595215
+Benign Accuracy:  0.1328125
+Benign Accuracy:  0.1171875
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.1171875
+Benign Accuracy:  0.1171875
+Loss: 2.3875417709350586
+Benign Accuracy:  0.0859375
+Benign Accuracy:  0.125
+Benign Accuracy:  0.125
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.1015625
+Loss: 2.3674864768981934
+Benign Accuracy:  0.1328125
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.09375
+Benign Accuracy:  0.1328125
+Loss: 2.377856969833374
+Benign Accuracy:  0.1640625
+Benign Accuracy:  0.109375
+Benign Accuracy:  0.171875
+Benign Accuracy:  0.21875
+Benign Accuracy:  0.0703125
+Loss: 2.361499309539795
+Benign Accuracy:  0.1015625
+Benign Accuracy:  0.1015625
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.125
+Benign Accuracy:  0.1328125
+Loss: 2.3644444942474365
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.09375
+Benign Accuracy:  0.0859375
+Benign Accuracy:  0.1328125
+Benign Accuracy:  0.125
+Loss: 2.327847480773926
+Benign Accuracy:  0.09375
+Benign Accuracy:  0.109375
+Benign Accuracy:  0.109375
+Benign Accuracy:  0.09375
+Benign Accuracy:  0.0859375
+Loss: 2.386263132095337
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.0546875
+Benign Accuracy:  0.125
+Total Benign Accuarcy: 11.99
+Total Benign Loss: 185.92547941207886
+Model Saved
+
+Epoch: 7
+Benign Accuracy:  0.16015625
+Loss: 2.273052930831909
+Benign Accuracy:  0.16015625
+Loss: 2.2636380195617676
+Benign Accuracy:  0.14453125
+Loss: 2.256647825241089
+Benign Accuracy:  0.1875
+Loss: 2.2085118293762207
+Benign Accuracy:  0.15625
+Loss: 2.257657766342163
+Benign Accuracy:  0.13671875
+Loss: 2.229379177093506
+Benign Accuracy:  0.140625
+Loss: 2.2760982513427734
+Benign Accuracy:  0.1328125
+Loss: 2.2351155281066895
+Benign Accuracy:  0.16015625
+Loss: 2.262092351913452
+Benign Accuracy:  0.16796875
+Loss: 2.27777099609375
+Benign Accuracy:  0.13671875
+Loss: 2.2856178283691406
+Benign Accuracy:  0.10546875
+Loss: 2.2804291248321533
+Benign Accuracy:  0.1328125
+Loss: 2.272449254989624
+Benign Accuracy:  0.17578125
+Loss: 2.249582290649414
+Benign Accuracy:  0.15625
+Loss: 2.245354652404785
+Benign Accuracy:  0.1640625
+Loss: 2.2243776321411133
+Benign Accuracy:  0.1171875
+Loss: 2.266718626022339
+Benign Accuracy:  0.19140625
+Loss: 2.224332571029663
+Benign Accuracy:  0.1640625
+Loss: 2.2939183712005615
+Benign Accuracy:  0.12890625
+Loss: 2.2895829677581787
+Benign Accuracy:  0.16015625
+Loss: 2.2659924030303955
+Benign Accuracy:  0.140625
+Loss: 2.266416072845459
+Benign Accuracy:  0.203125
+Loss: 2.2420341968536377
+Benign Accuracy:  0.1328125
+Loss: 2.245706081390381
+Benign Accuracy:  0.12109375
+Loss: 2.2745096683502197
+Benign Accuracy:  0.1796875
+Loss: 2.252291440963745
+Benign Accuracy:  0.16015625
+Loss: 2.253936290740967
+Benign Accuracy:  0.125
+Loss: 2.2706427574157715
+Benign Accuracy:  0.140625
+Loss: 2.2709898948669434
+Benign Accuracy:  0.1328125
+Loss: 2.265793561935425
+Benign Accuracy:  0.1484375
+Loss: 2.2659552097320557
+Benign Accuracy:  0.16015625
+Loss: 2.2776317596435547
+Benign Accuracy:  0.16015625
+Loss: 2.2543489933013916
+Benign Accuracy:  0.1328125
+Loss: 2.2529239654541016
+Benign Accuracy:  0.1328125
+Loss: 2.244643211364746
+Benign Accuracy:  0.12890625
+Loss: 2.29022216796875
+Benign Accuracy:  0.15625
+Loss: 2.252047300338745
+Benign Accuracy:  0.140625
+Loss: 2.2434940338134766
+Benign Accuracy:  0.18359375
+Loss: 2.2654671669006348
+Benign Accuracy:  0.2125
+Loss: 2.2480034828186035
+Total Accuarcy: 15.038
+Total Loss: 442.66698384284973
+Benign Accuracy:  0.1875
+Loss: 2.3033111095428467
+Benign Accuracy:  0.1640625
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.078125
+Benign Accuracy:  0.125
+Benign Accuracy:  0.140625
+Loss: 2.310577630996704
+Benign Accuracy:  0.15625
+Benign Accuracy:  0.1171875
+Benign Accuracy:  0.15625
+Benign Accuracy:  0.1171875
+Benign Accuracy:  0.1484375
+Loss: 2.3168187141418457
+Benign Accuracy:  0.1875
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.171875
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.125
+Loss: 2.369161605834961
+Benign Accuracy:  0.1328125
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.0859375
+Benign Accuracy:  0.1328125
+Benign Accuracy:  0.109375
+Loss: 2.353012800216675
+Benign Accuracy:  0.109375
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.09375
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.1171875
+Loss: 2.334494113922119
+Benign Accuracy:  0.125
+Benign Accuracy:  0.171875
+Benign Accuracy:  0.1171875
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.15625
+Loss: 2.266068696975708
+Benign Accuracy:  0.171875
+Benign Accuracy:  0.1640625
+Benign Accuracy:  0.09375
+Benign Accuracy:  0.1328125
+Benign Accuracy:  0.15625
+Loss: 2.2534356117248535
+Benign Accuracy:  0.1328125
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.09375
+Benign Accuracy:  0.1171875
+Loss: 2.3089053630828857
+Benign Accuracy:  0.109375
+Benign Accuracy:  0.1171875
+Benign Accuracy:  0.09375
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.15625
+Loss: 2.288062810897827
+Benign Accuracy:  0.1015625
+Benign Accuracy:  0.1953125
+Benign Accuracy:  0.1171875
+Benign Accuracy:  0.125
+Benign Accuracy:  0.1640625
+Loss: 2.26994252204895
+Benign Accuracy:  0.1171875
+Benign Accuracy:  0.15625
+Benign Accuracy:  0.1015625
+Benign Accuracy:  0.1875
+Benign Accuracy:  0.1171875
+Loss: 2.338763952255249
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.109375
+Benign Accuracy:  0.125
+Benign Accuracy:  0.125
+Benign Accuracy:  0.15625
+Loss: 2.270318031311035
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.109375
+Benign Accuracy:  0.1875
+Benign Accuracy:  0.1640625
+Benign Accuracy:  0.109375
+Loss: 2.401801109313965
+Benign Accuracy:  0.125
+Benign Accuracy:  0.1875
+Benign Accuracy:  0.0859375
+Benign Accuracy:  0.125
+Benign Accuracy:  0.140625
+Loss: 2.3383564949035645
+Benign Accuracy:  0.15625
+Benign Accuracy:  0.0625
+Benign Accuracy:  0.15625
+Benign Accuracy:  0.09375
+Benign Accuracy:  0.1796875
+Loss: 2.2859530448913574
+Benign Accuracy:  0.171875
+Benign Accuracy:  0.15625
+Benign Accuracy:  0.125
+Total Benign Accuarcy: 13.58
+Total Benign Loss: 182.1299467086792
+Model Saved
+
+Epoch: 8
+Benign Accuracy:  0.203125
+Loss: 2.240288257598877
+Benign Accuracy:  0.1328125
+Loss: 2.257385730743408
+Benign Accuracy:  0.140625
+Loss: 2.267810344696045
+Benign Accuracy:  0.12890625
+Loss: 2.328275442123413
+Benign Accuracy:  0.125
+Loss: 2.280916690826416
+Benign Accuracy:  0.1328125
+Loss: 2.2824177742004395
+Benign Accuracy:  0.16015625
+Loss: 2.2341208457946777
+Benign Accuracy:  0.18359375
+Loss: 2.263031482696533
+Benign Accuracy:  0.14453125
+Loss: 2.2892887592315674
+Benign Accuracy:  0.1484375
+Loss: 2.2693257331848145
+Benign Accuracy:  0.1640625
+Loss: 2.2837750911712646
+Benign Accuracy:  0.14453125
+Loss: 2.290144920349121
+Benign Accuracy:  0.17578125
+Loss: 2.223290205001831
+Benign Accuracy:  0.17578125
+Loss: 2.2266104221343994
+Benign Accuracy:  0.16015625
+Loss: 2.2746925354003906
+Benign Accuracy:  0.1796875
+Loss: 2.2641663551330566
+Benign Accuracy:  0.15625
+Loss: 2.253039836883545
+Benign Accuracy:  0.1953125
+Loss: 2.2595715522766113
+Benign Accuracy:  0.15234375
+Loss: 2.2650980949401855
+Benign Accuracy:  0.171875
+Loss: 2.2658088207244873
+Benign Accuracy:  0.1328125
+Loss: 2.2862508296966553
+Benign Accuracy:  0.15234375
+Loss: 2.268280267715454
+Benign Accuracy:  0.18359375
+Loss: 2.248333692550659
+Benign Accuracy:  0.16796875
+Loss: 2.255162239074707
+Benign Accuracy:  0.1796875
+Loss: 2.231278657913208
+Benign Accuracy:  0.18359375
+Loss: 2.2493839263916016
+Benign Accuracy:  0.16015625
+Loss: 2.2645840644836426
+Benign Accuracy:  0.19140625
+Loss: 2.2506065368652344
+Benign Accuracy:  0.15234375
+Loss: 2.2439396381378174
+Benign Accuracy:  0.15234375
+Loss: 2.257019281387329
+Benign Accuracy:  0.1875
+Loss: 2.2330329418182373
+Benign Accuracy:  0.1328125
+Loss: 2.2281382083892822
+Benign Accuracy:  0.1328125
+Loss: 2.2982940673828125
+Benign Accuracy:  0.171875
+Loss: 2.2532589435577393
+Benign Accuracy:  0.15625
+Loss: 2.252195119857788
+Benign Accuracy:  0.13671875
+Loss: 2.2920169830322266
+Benign Accuracy:  0.1875
+Loss: 2.2334539890289307
+Benign Accuracy:  0.12890625
+Loss: 2.2617623805999756
+Benign Accuracy:  0.171875
+Loss: 2.264631509780884
+Benign Accuracy:  0.1375
+Loss: 2.2830920219421387
+Total Accuarcy: 15.662
+Total Loss: 442.38335394859314
+Benign Accuracy:  0.203125
+Loss: 2.173640489578247
+Benign Accuracy:  0.1328125
+Benign Accuracy:  0.1640625
+Benign Accuracy:  0.203125
+Benign Accuracy:  0.1328125
+Benign Accuracy:  0.1328125
+Loss: 2.250270128250122
+Benign Accuracy:  0.1796875
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.109375
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.1171875
+Loss: 2.30106520652771
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.1796875
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.140625
+Loss: 2.2199597358703613
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.1171875
+Benign Accuracy:  0.1875
+Benign Accuracy:  0.1171875
+Benign Accuracy:  0.1484375
+Loss: 2.299733877182007
+Benign Accuracy:  0.1796875
+Benign Accuracy:  0.1796875
+Benign Accuracy:  0.171875
+Benign Accuracy:  0.1171875
+Benign Accuracy:  0.2109375
+Loss: 2.266979455947876
+Benign Accuracy:  0.203125
+Benign Accuracy:  0.171875
+Benign Accuracy:  0.15625
+Benign Accuracy:  0.15625
+Benign Accuracy:  0.140625
+Loss: 2.237689256668091
+Benign Accuracy:  0.15625
+Benign Accuracy:  0.09375
+Benign Accuracy:  0.1796875
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.1640625
+Loss: 2.2942466735839844
+Benign Accuracy:  0.203125
+Benign Accuracy:  0.1640625
+Benign Accuracy:  0.1015625
+Benign Accuracy:  0.1953125
+Benign Accuracy:  0.15625
+Loss: 2.2881886959075928
+Benign Accuracy:  0.1875
+Benign Accuracy:  0.2265625
+Benign Accuracy:  0.1796875
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.140625
+Loss: 2.291947364807129
+Benign Accuracy:  0.1640625
+Benign Accuracy:  0.15625
+Benign Accuracy:  0.1953125
+Benign Accuracy:  0.1875
+Benign Accuracy:  0.1484375
+Loss: 2.253405809402466
+Benign Accuracy:  0.21875
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.0703125
+Benign Accuracy:  0.1796875
+Benign Accuracy:  0.203125
+Loss: 2.2136638164520264
+Benign Accuracy:  0.078125
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.203125
+Benign Accuracy:  0.1796875
+Loss: 2.267991065979004
+Benign Accuracy:  0.2421875
+Benign Accuracy:  0.171875
+Benign Accuracy:  0.1796875
+Benign Accuracy:  0.1171875
+Benign Accuracy:  0.140625
+Loss: 2.282554864883423
+Benign Accuracy:  0.15625
+Benign Accuracy:  0.2109375
+Benign Accuracy:  0.1875
+Benign Accuracy:  0.0859375
+Benign Accuracy:  0.15625
+Loss: 2.2698330879211426
+Benign Accuracy:  0.1640625
+Benign Accuracy:  0.1171875
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.1015625
+Benign Accuracy:  0.25
+Loss: 2.209213972091675
+Benign Accuracy:  0.109375
+Benign Accuracy:  0.1328125
+Benign Accuracy:  0.1875
+Total Benign Accuarcy: 15.86
+Total Benign Loss: 177.91499066352844
+Model Saved
+
+Epoch: 9
+Benign Accuracy:  0.1640625
+Loss: 2.266364097595215
+Benign Accuracy:  0.1640625
+Loss: 2.244199752807617
+Benign Accuracy:  0.13671875
+Loss: 2.260100841522217
+Benign Accuracy:  0.16796875
+Loss: 2.2726986408233643
+Benign Accuracy:  0.171875
+Loss: 2.236457586288452
+Benign Accuracy:  0.16015625
+Loss: 2.261681318283081
+Benign Accuracy:  0.1328125
+Loss: 2.258103609085083
+Benign Accuracy:  0.16796875
+Loss: 2.2598817348480225
+Benign Accuracy:  0.16796875
+Loss: 2.2513389587402344
+Benign Accuracy:  0.171875
+Loss: 2.230172872543335
+Benign Accuracy:  0.16015625
+Loss: 2.2322981357574463
+Benign Accuracy:  0.15625
+Loss: 2.2658913135528564
+Benign Accuracy:  0.125
+Loss: 2.268704414367676
+Benign Accuracy:  0.15234375
+Loss: 2.254875898361206
+Benign Accuracy:  0.1484375
+Loss: 2.2443723678588867
+Benign Accuracy:  0.16796875
+Loss: 2.246588706970215
+Benign Accuracy:  0.1328125
+Loss: 2.2480483055114746
+Benign Accuracy:  0.1640625
+Loss: 2.250718116760254
+Benign Accuracy:  0.12109375
+Loss: 2.2684412002563477
+Benign Accuracy:  0.16015625
+Loss: 2.2837741374969482
+Benign Accuracy:  0.109375
+Loss: 2.27683424949646
+Benign Accuracy:  0.1640625
+Loss: 2.2421603202819824
+Benign Accuracy:  0.14453125
+Loss: 2.259876251220703
+Benign Accuracy:  0.17578125
+Loss: 2.254185438156128
+Benign Accuracy:  0.1796875
+Loss: 2.237203359603882
+Benign Accuracy:  0.1796875
+Loss: 2.238959789276123
+Benign Accuracy:  0.1484375
+Loss: 2.2389042377471924
+Benign Accuracy:  0.1328125
+Loss: 2.2840869426727295
+Benign Accuracy:  0.171875
+Loss: 2.228515386581421
+Benign Accuracy:  0.15234375
+Loss: 2.2459535598754883
+Benign Accuracy:  0.17578125
+Loss: 2.2263505458831787
+Benign Accuracy:  0.16015625
+Loss: 2.274636745452881
+Benign Accuracy:  0.13671875
+Loss: 2.2674007415771484
+Benign Accuracy:  0.1875
+Loss: 2.26294207572937
+Benign Accuracy:  0.1796875
+Loss: 2.2373552322387695
+Benign Accuracy:  0.171875
+Loss: 2.226715326309204
+Benign Accuracy:  0.171875
+Loss: 2.2402939796447754
+Benign Accuracy:  0.1171875
+Loss: 2.238013744354248
+Benign Accuracy:  0.12890625
+Loss: 2.27360463142395
+Benign Accuracy:  0.1375
+Loss: 2.271632194519043
+Total Accuarcy: 15.676
+Total Loss: 441.3019256591797
+Benign Accuracy:  0.140625
+Loss: 2.2586708068847656
+Benign Accuracy:  0.1953125
+Benign Accuracy:  0.09375
+Benign Accuracy:  0.171875
+Benign Accuracy:  0.1328125
+Benign Accuracy:  0.125
+Loss: 2.303626537322998
+Benign Accuracy:  0.15625
+Benign Accuracy:  0.171875
+Benign Accuracy:  0.1328125
+Benign Accuracy:  0.2109375
+Benign Accuracy:  0.109375
+Loss: 2.2595772743225098
+Benign Accuracy:  0.125
+Benign Accuracy:  0.1953125
+Benign Accuracy:  0.1328125
+Benign Accuracy:  0.1796875
+Benign Accuracy:  0.1875
+Loss: 2.2754576206207275
+Benign Accuracy:  0.234375
+Benign Accuracy:  0.1328125
+Benign Accuracy:  0.078125
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.15625
+Loss: 2.2532553672790527
+Benign Accuracy:  0.171875
+Benign Accuracy:  0.1796875
+Benign Accuracy:  0.1953125
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.140625
+Loss: 2.226047992706299
+Benign Accuracy:  0.125
+Benign Accuracy:  0.2109375
+Benign Accuracy:  0.109375
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.171875
+Loss: 2.2301387786865234
+Benign Accuracy:  0.1796875
+Benign Accuracy:  0.203125
+Benign Accuracy:  0.15625
+Benign Accuracy:  0.171875
+Benign Accuracy:  0.1484375
+Loss: 2.237933874130249
+Benign Accuracy:  0.1796875
+Benign Accuracy:  0.1796875
+Benign Accuracy:  0.125
+Benign Accuracy:  0.1875
+Benign Accuracy:  0.15625
+Loss: 2.2837936878204346
+Benign Accuracy:  0.125
+Benign Accuracy:  0.15625
+Benign Accuracy:  0.171875
+Benign Accuracy:  0.171875
+Benign Accuracy:  0.2109375
+Loss: 2.192965269088745
+Benign Accuracy:  0.1640625
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.1328125
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.1015625
+Loss: 2.3354685306549072
+Benign Accuracy:  0.15625
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.21875
+Benign Accuracy:  0.1640625
+Benign Accuracy:  0.09375
+Loss: 2.3127784729003906
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.1640625
+Benign Accuracy:  0.234375
+Benign Accuracy:  0.2265625
+Benign Accuracy:  0.1875
+Loss: 2.254991054534912
+Benign Accuracy:  0.1796875
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.1640625
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.15625
+Loss: 2.2917544841766357
+Benign Accuracy:  0.171875
+Benign Accuracy:  0.1796875
+Benign Accuracy:  0.21875
+Benign Accuracy:  0.171875
+Benign Accuracy:  0.1484375
+Loss: 2.2632901668548584
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.1015625
+Benign Accuracy:  0.21875
+Benign Accuracy:  0.1640625
+Benign Accuracy:  0.1640625
+Loss: 2.3048510551452637
+Benign Accuracy:  0.15625
+Benign Accuracy:  0.1640625
+Benign Accuracy:  0.0625
+Total Benign Accuarcy: 16.03
+Total Benign Loss: 178.977285861969
+Model Saved
+
+Epoch: 10
+Benign Accuracy:  0.1484375
+Loss: 2.28706693649292
+Benign Accuracy:  0.13671875
+Loss: 2.234802722930908
+Benign Accuracy:  0.17578125
+Loss: 2.22776460647583
+Benign Accuracy:  0.20703125
+Loss: 2.246856689453125
+Benign Accuracy:  0.15625
+Loss: 2.2644433975219727
+Benign Accuracy:  0.12109375
+Loss: 2.2873504161834717
+Benign Accuracy:  0.15625
+Loss: 2.2237212657928467
+Benign Accuracy:  0.11328125
+Loss: 2.2838919162750244
+Benign Accuracy:  0.1796875
+Loss: 2.2190215587615967
+Benign Accuracy:  0.14453125
+Loss: 2.2549636363983154
+Benign Accuracy:  0.16796875
+Loss: 2.265465021133423
+Benign Accuracy:  0.18359375
+Loss: 2.2370429039001465
+Benign Accuracy:  0.1640625
+Loss: 2.2534639835357666
+Benign Accuracy:  0.140625
+Loss: 2.2647571563720703
+Benign Accuracy:  0.15234375
+Loss: 2.261204481124878
+Benign Accuracy:  0.171875
+Loss: 2.2313003540039062
+Benign Accuracy:  0.14453125
+Loss: 2.2733309268951416
+Benign Accuracy:  0.16796875
+Loss: 2.245488405227661
+Benign Accuracy:  0.1640625
+Loss: 2.259359121322632
+Benign Accuracy:  0.14453125
+Loss: 2.2885854244232178
+Benign Accuracy:  0.1875
+Loss: 2.2504491806030273
+Benign Accuracy:  0.17578125
+Loss: 2.2248694896698
+Benign Accuracy:  0.203125
+Loss: 2.235905885696411
+Benign Accuracy:  0.12890625
+Loss: 2.275998115539551
+Benign Accuracy:  0.1484375
+Loss: 2.260154962539673
+Benign Accuracy:  0.14453125
+Loss: 2.2572834491729736
+Benign Accuracy:  0.1484375
+Loss: 2.2641167640686035
+Benign Accuracy:  0.13671875
+Loss: 2.2626936435699463
+Benign Accuracy:  0.171875
+Loss: 2.2562732696533203
+Benign Accuracy:  0.15625
+Loss: 2.2773044109344482
+Benign Accuracy:  0.12890625
+Loss: 2.2762560844421387
+Benign Accuracy:  0.125
+Loss: 2.255650758743286
+Benign Accuracy:  0.1328125
+Loss: 2.2343080043792725
+Benign Accuracy:  0.13671875
+Loss: 2.257826805114746
+Benign Accuracy:  0.1484375
+Loss: 2.269658088684082
+Benign Accuracy:  0.17578125
+Loss: 2.2405264377593994
+Benign Accuracy:  0.14453125
+Loss: 2.2482330799102783
+Benign Accuracy:  0.140625
+Loss: 2.2695698738098145
+Benign Accuracy:  0.1484375
+Loss: 2.244663953781128
+Benign Accuracy:  0.1125
+Loss: 2.2321221828460693
+Total Accuarcy: 15.366
+Total Loss: 442.2544651031494
+Benign Accuracy:  0.125
+Loss: 2.2933688163757324
+Benign Accuracy:  0.1640625
+Benign Accuracy:  0.171875
+Benign Accuracy:  0.15625
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.1640625
+Loss: 2.2279698848724365
+Benign Accuracy:  0.1640625
+Benign Accuracy:  0.0546875
+Benign Accuracy:  0.125
+Benign Accuracy:  0.1015625
+Benign Accuracy:  0.140625
+Loss: 2.2794132232666016
+Benign Accuracy:  0.0859375
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.1015625
+Benign Accuracy:  0.15625
+Benign Accuracy:  0.1640625
+Loss: 2.228954553604126
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.1875
+Benign Accuracy:  0.1171875
+Benign Accuracy:  0.1328125
+Benign Accuracy:  0.15625
+Loss: 2.245316505432129
+Benign Accuracy:  0.1875
+Benign Accuracy:  0.1640625
+Benign Accuracy:  0.1328125
+Benign Accuracy:  0.1328125
+Benign Accuracy:  0.15625
+Loss: 2.29494571685791
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.15625
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.109375
+Loss: 2.3159804344177246
+Benign Accuracy:  0.125
+Benign Accuracy:  0.2109375
+Benign Accuracy:  0.1328125
+Benign Accuracy:  0.078125
+Benign Accuracy:  0.1796875
+Loss: 2.2229533195495605
+Benign Accuracy:  0.1015625
+Benign Accuracy:  0.09375
+Benign Accuracy:  0.1328125
+Benign Accuracy:  0.1640625
+Benign Accuracy:  0.0859375
+Loss: 2.2497475147247314
+Benign Accuracy:  0.1875
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.0859375
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.1171875
+Loss: 2.308107852935791
+Benign Accuracy:  0.125
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.1640625
+Benign Accuracy:  0.1796875
+Benign Accuracy:  0.1484375
+Loss: 2.245980978012085
+Benign Accuracy:  0.1015625
+Benign Accuracy:  0.15625
+Benign Accuracy:  0.15625
+Benign Accuracy:  0.1953125
+Benign Accuracy:  0.1796875
+Loss: 2.201470136642456
+Benign Accuracy:  0.15625
+Benign Accuracy:  0.1171875
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.1015625
+Benign Accuracy:  0.1171875
+Loss: 2.256316661834717
+Benign Accuracy:  0.1953125
+Benign Accuracy:  0.125
+Benign Accuracy:  0.1953125
+Benign Accuracy:  0.15625
+Benign Accuracy:  0.1328125
+Loss: 2.2998709678649902
+Benign Accuracy:  0.109375
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.15625
+Benign Accuracy:  0.1640625
+Benign Accuracy:  0.125
+Loss: 2.2459750175476074
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.1796875
+Benign Accuracy:  0.1875
+Benign Accuracy:  0.1640625
+Benign Accuracy:  0.1796875
+Loss: 2.239657402038574
+Benign Accuracy:  0.203125
+Benign Accuracy:  0.1640625
+Benign Accuracy:  0.0
+Total Benign Accuarcy: 14.42
+Total Benign Loss: 178.3203423023224
+Model Saved
+
+Epoch: 11
+Benign Accuracy:  0.15234375
+Loss: 2.249553680419922
+Benign Accuracy:  0.15625
+Loss: 2.228466510772705
+Benign Accuracy:  0.1328125
+Loss: 2.2767722606658936
+Benign Accuracy:  0.1171875
+Loss: 2.263765811920166
+Benign Accuracy:  0.12890625
+Loss: 2.2815182209014893
+Benign Accuracy:  0.1484375
+Loss: 2.25504469871521
+Benign Accuracy:  0.16015625
+Loss: 2.2497804164886475
+Benign Accuracy:  0.1796875
+Loss: 2.2159290313720703
+Benign Accuracy:  0.16015625
+Loss: 2.2603209018707275
+Benign Accuracy:  0.19921875
+Loss: 2.2417116165161133
+Benign Accuracy:  0.14453125
+Loss: 2.2312257289886475
+Benign Accuracy:  0.11328125
+Loss: 2.274078845977783
+Benign Accuracy:  0.14453125
+Loss: 2.253523349761963
+Benign Accuracy:  0.171875
+Loss: 2.237403392791748
+Benign Accuracy:  0.18359375
+Loss: 2.2243356704711914
+Benign Accuracy:  0.1875
+Loss: 2.2445905208587646
+Benign Accuracy:  0.19140625
+Loss: 2.2450733184814453
+Benign Accuracy:  0.1875
+Loss: 2.228081703186035
+Benign Accuracy:  0.1484375
+Loss: 2.2537693977355957
+Benign Accuracy:  0.15234375
+Loss: 2.2486367225646973
+Benign Accuracy:  0.16796875
+Loss: 2.258230686187744
+Benign Accuracy:  0.171875
+Loss: 2.2181496620178223
+Benign Accuracy:  0.1171875
+Loss: 2.267296314239502
+Benign Accuracy:  0.14453125
+Loss: 2.2895750999450684
+Benign Accuracy:  0.19140625
+Loss: 2.243533134460449
+Benign Accuracy:  0.1484375
+Loss: 2.238839626312256
+Benign Accuracy:  0.16796875
+Loss: 2.1792311668395996
+Benign Accuracy:  0.13671875
+Loss: 2.2643957138061523
+Benign Accuracy:  0.125
+Loss: 2.257883310317993
+Benign Accuracy:  0.140625
+Loss: 2.2952890396118164
+Benign Accuracy:  0.16796875
+Loss: 2.23648738861084
+Benign Accuracy:  0.19140625
+Loss: 2.2546207904815674
+Benign Accuracy:  0.16796875
+Loss: 2.269777774810791
+Benign Accuracy:  0.1484375
+Loss: 2.265187978744507
+Benign Accuracy:  0.16015625
+Loss: 2.2509264945983887
+Benign Accuracy:  0.16015625
+Loss: 2.2598190307617188
+Benign Accuracy:  0.16796875
+Loss: 2.20524001121521
+Benign Accuracy:  0.14453125
+Loss: 2.2798831462860107
+Benign Accuracy:  0.21875
+Loss: 2.2036983966827393
+Benign Accuracy:  0.2
+Loss: 2.264070749282837
+Total Accuarcy: 15.672
+Total Loss: 441.4961724281311
+Benign Accuracy:  0.203125
+Loss: 2.1848716735839844
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.0859375
+Benign Accuracy:  0.1875
+Benign Accuracy:  0.1875
+Benign Accuracy:  0.1484375
+Loss: 2.264052391052246
+Benign Accuracy:  0.203125
+Benign Accuracy:  0.15625
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.109375
+Benign Accuracy:  0.25
+Loss: 2.157090425491333
+Benign Accuracy:  0.09375
+Benign Accuracy:  0.1953125
+Benign Accuracy:  0.1171875
+Benign Accuracy:  0.1015625
+Benign Accuracy:  0.15625
+Loss: 2.253225803375244
+Benign Accuracy:  0.171875
+Benign Accuracy:  0.171875
+Benign Accuracy:  0.1171875
+Benign Accuracy:  0.1640625
+Benign Accuracy:  0.1484375
+Loss: 2.223371744155884
+Benign Accuracy:  0.1640625
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.1171875
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.1640625
+Loss: 2.2386550903320312
+Benign Accuracy:  0.1328125
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.1328125
+Benign Accuracy:  0.1640625
+Benign Accuracy:  0.1328125
+Loss: 2.239644765853882
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.171875
+Benign Accuracy:  0.171875
+Benign Accuracy:  0.1796875
+Benign Accuracy:  0.1171875
+Loss: 2.272346258163452
+Benign Accuracy:  0.1640625
+Benign Accuracy:  0.1796875
+Benign Accuracy:  0.1640625
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.265625
+Loss: 2.2029550075531006
+Benign Accuracy:  0.15625
+Benign Accuracy:  0.1640625
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.15625
+Benign Accuracy:  0.1640625
+Loss: 2.2179453372955322
+Benign Accuracy:  0.1171875
+Benign Accuracy:  0.15625
+Benign Accuracy:  0.1875
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.1328125
+Loss: 2.2579636573791504
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.1640625
+Benign Accuracy:  0.1640625
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.140625
+Loss: 2.297638416290283
+Benign Accuracy:  0.171875
+Benign Accuracy:  0.203125
+Benign Accuracy:  0.15625
+Benign Accuracy:  0.15625
+Benign Accuracy:  0.171875
+Loss: 2.231963872909546
+Benign Accuracy:  0.15625
+Benign Accuracy:  0.21875
+Benign Accuracy:  0.15625
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.21875
+Loss: 2.1558876037597656
+Benign Accuracy:  0.1328125
+Benign Accuracy:  0.15625
+Benign Accuracy:  0.1953125
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.2109375
+Loss: 2.205526828765869
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.171875
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.109375
+Benign Accuracy:  0.171875
+Loss: 2.28197979927063
+Benign Accuracy:  0.1875
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.1875
+Total Benign Accuarcy: 15.88
+Total Benign Loss: 177.14976477622986
+Model Saved
+
+Epoch: 12
+Benign Accuracy:  0.125
+Loss: 2.24980092048645
+Benign Accuracy:  0.15234375
+Loss: 2.266702175140381
+Benign Accuracy:  0.12890625
+Loss: 2.265965223312378
+Benign Accuracy:  0.21484375
+Loss: 2.2105872631073
+Benign Accuracy:  0.1953125
+Loss: 2.20808744430542
+Benign Accuracy:  0.15234375
+Loss: 2.2506253719329834
+Benign Accuracy:  0.13671875
+Loss: 2.236664295196533
+Benign Accuracy:  0.20703125
+Loss: 2.2364413738250732
+Benign Accuracy:  0.15234375
+Loss: 2.240851402282715
+Benign Accuracy:  0.171875
+Loss: 2.2493913173675537
+Benign Accuracy:  0.1875
+Loss: 2.2332139015197754
+Benign Accuracy:  0.14453125
+Loss: 2.281111717224121
+Benign Accuracy:  0.140625
+Loss: 2.272346019744873
+Benign Accuracy:  0.14453125
+Loss: 2.265645742416382
+Benign Accuracy:  0.17578125
+Loss: 2.2049803733825684
+Benign Accuracy:  0.16015625
+Loss: 2.26456618309021
+Benign Accuracy:  0.140625
+Loss: 2.2747247219085693
+Benign Accuracy:  0.171875
+Loss: 2.203209638595581
+Benign Accuracy:  0.15234375
+Loss: 2.2330682277679443
+Benign Accuracy:  0.16015625
+Loss: 2.270305871963501
+Benign Accuracy:  0.1875
+Loss: 2.2191057205200195
+Benign Accuracy:  0.15234375
+Loss: 2.2396297454833984
+Benign Accuracy:  0.1796875
+Loss: 2.2469658851623535
+Benign Accuracy:  0.15234375
+Loss: 2.2583346366882324
+Benign Accuracy:  0.1875
+Loss: 2.2455854415893555
+Benign Accuracy:  0.12890625
+Loss: 2.2649989128112793
+Benign Accuracy:  0.1640625
+Loss: 2.246737480163574
+Benign Accuracy:  0.1875
+Loss: 2.220025062561035
+Benign Accuracy:  0.18359375
+Loss: 2.231419801712036
+Benign Accuracy:  0.15234375
+Loss: 2.2275307178497314
+Benign Accuracy:  0.11328125
+Loss: 2.2858939170837402
+Benign Accuracy:  0.203125
+Loss: 2.2248458862304688
+Benign Accuracy:  0.1484375
+Loss: 2.272280693054199
+Benign Accuracy:  0.1640625
+Loss: 2.265418291091919
+Benign Accuracy:  0.1015625
+Loss: 2.2968664169311523
+Benign Accuracy:  0.1796875
+Loss: 2.247570037841797
+Benign Accuracy:  0.1484375
+Loss: 2.2412452697753906
+Benign Accuracy:  0.1875
+Loss: 2.2185146808624268
+Benign Accuracy:  0.1484375
+Loss: 2.258824348449707
+Benign Accuracy:  0.1
+Loss: 2.3036649227142334
+Total Accuarcy: 15.554
+Total Loss: 441.1890287399292
+Benign Accuracy:  0.09375
+Loss: 2.2440431118011475
+Benign Accuracy:  0.125
+Benign Accuracy:  0.1953125
+Benign Accuracy:  0.125
+Benign Accuracy:  0.109375
+Benign Accuracy:  0.140625
+Loss: 2.298159599304199
+Benign Accuracy:  0.125
+Benign Accuracy:  0.171875
+Benign Accuracy:  0.15625
+Benign Accuracy:  0.1171875
+Benign Accuracy:  0.140625
+Loss: 2.282496690750122
+Benign Accuracy:  0.0859375
+Benign Accuracy:  0.1640625
+Benign Accuracy:  0.1640625
+Benign Accuracy:  0.1796875
+Benign Accuracy:  0.1875
+Loss: 2.268828868865967
+Benign Accuracy:  0.1953125
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.1953125
+Benign Accuracy:  0.21875
+Benign Accuracy:  0.1796875
+Loss: 2.2216908931732178
+Benign Accuracy:  0.078125
+Benign Accuracy:  0.078125
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.1171875
+Benign Accuracy:  0.1484375
+Loss: 2.267198324203491
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.1328125
+Benign Accuracy:  0.2109375
+Benign Accuracy:  0.109375
+Benign Accuracy:  0.171875
+Loss: 2.2110962867736816
+Benign Accuracy:  0.1796875
+Benign Accuracy:  0.125
+Benign Accuracy:  0.2109375
+Benign Accuracy:  0.125
+Benign Accuracy:  0.1328125
+Loss: 2.2871365547180176
+Benign Accuracy:  0.15625
+Benign Accuracy:  0.1171875
+Benign Accuracy:  0.1171875
+Benign Accuracy:  0.0859375
+Benign Accuracy:  0.1640625
+Loss: 2.2331817150115967
+Benign Accuracy:  0.15625
+Benign Accuracy:  0.15625
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.125
+Benign Accuracy:  0.140625
+Loss: 2.284749984741211
+Benign Accuracy:  0.1640625
+Benign Accuracy:  0.171875
+Benign Accuracy:  0.1640625
+Benign Accuracy:  0.109375
+Benign Accuracy:  0.15625
+Loss: 2.319551706314087
+Benign Accuracy:  0.1796875
+Benign Accuracy:  0.1328125
+Benign Accuracy:  0.15625
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.1484375
+Loss: 2.256265163421631
+Benign Accuracy:  0.2109375
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.1640625
+Benign Accuracy:  0.09375
+Benign Accuracy:  0.109375
+Loss: 2.364978075027466
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.1171875
+Benign Accuracy:  0.1640625
+Benign Accuracy:  0.1875
+Benign Accuracy:  0.1796875
+Loss: 2.2428698539733887
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.1796875
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.1328125
+Benign Accuracy:  0.1640625
+Loss: 2.233158826828003
+Benign Accuracy:  0.109375
+Benign Accuracy:  0.171875
+Benign Accuracy:  0.1328125
+Benign Accuracy:  0.1171875
+Benign Accuracy:  0.15625
+Loss: 2.249974250793457
+Benign Accuracy:  0.1328125
+Benign Accuracy:  0.1796875
+Benign Accuracy:  0.1875
+Total Benign Accuarcy: 14.73
+Total Benign Loss: 179.34974813461304
+Model Saved
+
+Epoch: 13
+Benign Accuracy:  0.17578125
+Loss: 2.267587184906006
+Benign Accuracy:  0.125
+Loss: 2.2574539184570312
+Benign Accuracy:  0.16015625
+Loss: 2.241744041442871
+Benign Accuracy:  0.12890625
+Loss: 2.2664034366607666
+Benign Accuracy:  0.19140625
+Loss: 2.2451326847076416
+Benign Accuracy:  0.12890625
+Loss: 2.2567925453186035
+Benign Accuracy:  0.171875
+Loss: 2.219383955001831
+Benign Accuracy:  0.17578125
+Loss: 2.208486557006836
+Benign Accuracy:  0.1484375
+Loss: 2.2460920810699463
+Benign Accuracy:  0.19140625
+Loss: 2.2146389484405518
+Benign Accuracy:  0.125
+Loss: 2.286543846130371
+Benign Accuracy:  0.12890625
+Loss: 2.28705096244812
+Benign Accuracy:  0.140625
+Loss: 2.270284652709961
+Benign Accuracy:  0.21875
+Loss: 2.20408296585083
+Benign Accuracy:  0.15625
+Loss: 2.2456889152526855
+Benign Accuracy:  0.15625
+Loss: 2.2647974491119385
+Benign Accuracy:  0.1484375
+Loss: 2.237156867980957
+Benign Accuracy:  0.203125
+Loss: 2.215006113052368
+Benign Accuracy:  0.15625
+Loss: 2.2608189582824707
+Benign Accuracy:  0.18359375
+Loss: 2.2146875858306885
+Benign Accuracy:  0.18359375
+Loss: 2.239161968231201
+Benign Accuracy:  0.140625
+Loss: 2.2635273933410645
+Benign Accuracy:  0.1640625
+Loss: 2.2544713020324707
+Benign Accuracy:  0.15625
+Loss: 2.2906243801116943
+Benign Accuracy:  0.11328125
+Loss: 2.238046646118164
+Benign Accuracy:  0.203125
+Loss: 2.222482681274414
+Benign Accuracy:  0.125
+Loss: 2.283506393432617
+Benign Accuracy:  0.1484375
+Loss: 2.2258307933807373
+Benign Accuracy:  0.14453125
+Loss: 2.269733190536499
+Benign Accuracy:  0.15625
+Loss: 2.2050201892852783
+Benign Accuracy:  0.16796875
+Loss: 2.225069999694824
+Benign Accuracy:  0.1328125
+Loss: 2.274226188659668
+Benign Accuracy:  0.171875
+Loss: 2.2416012287139893
+Benign Accuracy:  0.16015625
+Loss: 2.255387544631958
+Benign Accuracy:  0.1796875
+Loss: 2.2649383544921875
+Benign Accuracy:  0.15625
+Loss: 2.2155423164367676
+Benign Accuracy:  0.15625
+Loss: 2.2339563369750977
+Benign Accuracy:  0.16796875
+Loss: 2.2243802547454834
+Benign Accuracy:  0.1640625
+Loss: 2.251335382461548
+Benign Accuracy:  0.2125
+Loss: 2.217214822769165
+Total Accuarcy: 15.684
+Total Loss: 440.50233483314514
+Benign Accuracy:  0.1640625
+Loss: 2.3300771713256836
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.15625
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.265625
+Loss: 2.1300292015075684
+Benign Accuracy:  0.1953125
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.1640625
+Benign Accuracy:  0.1328125
+Benign Accuracy:  0.0859375
+Loss: 2.4566352367401123
+Benign Accuracy:  0.15625
+Benign Accuracy:  0.15625
+Benign Accuracy:  0.1015625
+Benign Accuracy:  0.2109375
+Benign Accuracy:  0.15625
+Loss: 2.393097400665283
+Benign Accuracy:  0.171875
+Benign Accuracy:  0.1953125
+Benign Accuracy:  0.15625
+Benign Accuracy:  0.1328125
+Benign Accuracy:  0.125
+Loss: 2.414010524749756
+Benign Accuracy:  0.1015625
+Benign Accuracy:  0.0859375
+Benign Accuracy:  0.1328125
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.1484375
+Loss: 2.3732821941375732
+Benign Accuracy:  0.1796875
+Benign Accuracy:  0.1796875
+Benign Accuracy:  0.15625
+Benign Accuracy:  0.15625
+Benign Accuracy:  0.140625
+Loss: 2.300969123840332
+Benign Accuracy:  0.1640625
+Benign Accuracy:  0.1171875
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.171875
+Benign Accuracy:  0.1328125
+Loss: 2.3223659992218018
+Benign Accuracy:  0.0703125
+Benign Accuracy:  0.1484375
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.15625
+Benign Accuracy:  0.140625
+Loss: 2.3296468257904053
+Benign Accuracy:  0.1015625
+Benign Accuracy:  0.1015625
+Benign Accuracy:  0.140625
+Benign Accuracy:  0.109375
+Benign Accuracy:  0.1484375
+Loss: 2.324587821960449
+Benign Accuracy:  0.1796875
+Benign Accuracy: 

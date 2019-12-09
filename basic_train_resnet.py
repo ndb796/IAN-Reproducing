@@ -84,6 +84,9 @@ def train(epoch):
         inputs, targets = inputs.to(device), targets.to(device)
         optimizer.zero_grad()
 
+        print(inputs.shape)
+        print(targets.shape)
+
         benign_outputs = net(inputs)
         loss = criterion(benign_outputs, targets)
         loss.backward()

@@ -31,9 +31,8 @@ if not os.path.exists(adv_dataset_test_path):
     os.makedirs(adv_dataset_test_path)
 
 epsilon = 0.0314
-k = 7
-alpha = 0.00784
 p = 0.8
+max_iter = 10
 
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
@@ -64,6 +63,7 @@ class IANAttack(object):
     def perturb(self, x_natural, y):
         x = x_natural.detach()
         temp_epsilon = epsilon
+        count = 0
 
         temp_set = list(range(len(classes)))
         temp_set.remove(y[0].item())
@@ -94,7 +94,14 @@ class IANAttack(object):
 
                       if correct == 1 and confidence >= p:
                           break
+
+                      count += 1
+                      if count >= max_iter:
+                          break
+
               temp_epsilon += 0.01
+              if count >= max_iter:
+                  break
         return x
 
 def attack(x, y, model, adversary):
@@ -109,6 +116,7 @@ net = net.to(device)
 net = torch.nn.DataParallel(net)
 file_name = 'basic_train_resnet'
 checkpoint = torch.load('./checkpoint/ckpt.t7' + file_name)
+net.load_state_dict(checkpoint['net'])
 cudnn.benchmark = True
 
 adversary = IANAttack(net)
@@ -116,11 +124,10 @@ criterion = nn.CrossEntropyLoss()
 
 def make_adv_captcha(epoch):
     net.eval()
-    benign_loss = 0
-    adv_loss = 0
-    correct = 0
     benign_correct = 0
+    benign_filter_correct = 0
     adv_correct = 0
+    adv_filter_correct = 0
     total = 0
     with torch.no_grad():
         for batch_idx, (inputs, targets) in enumerate(train_loader):
@@ -128,26 +135,33 @@ def make_adv_captcha(epoch):
             total += targets.size(0)
 
             with torch.no_grad():
-                outputs = net(median_filter(inputs))
-                loss = criterion(outputs, targets)
-                benign_loss += loss.item()
+                outputs = net(inputs)
 
                 _, predicted = outputs.max(1)
-                correct += predicted.eq(targets).sum().item()
                 benign_correct += predicted.eq(targets).sum().item()
-                print('Benign Accuracy: ', str(predicted.eq(targets).sum().item() / targets.size(0)))
+                # print('Benign Accuracy: ', str(predicted.eq(targets).sum().item() / targets.size(0)))
+
+                outputs = net(median_filter(inputs))
+
+                _, predicted = outputs.max(1)
+                benign_filter_correct += predicted.eq(targets).sum().item()
+                # print('Benign Filter Accuracy: ', str(predicted.eq(targets).sum().item() / targets.size(0)))
 
             with torch.no_grad():
                 adv = adversary.perturb(inputs, targets)
+                adv_outputs = net(adv)
+
+                _, predicted = adv_outputs.max(1)
+                adv_correct += predicted.eq(targets).sum().item()
+                # print('Adv Accuracy: ', str(predicted.eq(targets).sum().item() / targets.size(0)))
+
                 adv_outputs = net(median_filter(adv))
-                loss = criterion(adv_outputs, targets)
-                adv_loss += loss.item()
 
                 label_string = str(targets.cpu().numpy()[0])
                 hash_object = hashlib.md5(label_string.encode() + str(time.time()).encode())
                 name = label_string + '_' + hash_object.hexdigest() + '.png'
 
-                if batch_idx < 30000:
+                if batch_idx < 40000:
                     file_name = adv_dataset_train_path + '/' + name
                     save_image(adv[0], file_name)
                 else:
@@ -155,17 +169,15 @@ def make_adv_captcha(epoch):
                     save_image(adv[0], file_name)     
 
                 _, predicted = adv_outputs.max(1)
-                correct += predicted.eq(targets).sum().item()
-                adv_correct += predicted.eq(targets).sum().item()
-                print('Adv Accuracy: ', str(predicted.eq(targets).sum().item() / targets.size(0)))
-            
-            if batch_idx % 10 == 0:
-                print('Index:', batch_idx, 'Loss:', loss.item())
+                adv_filter_correct += predicted.eq(targets).sum().item()
+                # print('Adv Filter Accuracy: ', str(predicted.eq(targets).sum().item() / targets.size(0)))
+ 
+            if batch_idx % 100 == 0:
+                print('Index:', batch_idx)
 
     print('Total Benign Accuarcy:', 100. * benign_correct / total)
+    print('Total Benign Filter Accuarcy:', 100. * benign_filter_correct / total)
     print('Total Adv Accuarcy:', 100. * adv_correct / total)
-    print('Total Accuarcy:', 100. * correct / (total * 2))
-    print('Total Benign Loss:', benign_loss)
-    print('Total Adv Loss:', adv_loss)
+    print('Total Adv Filter Accuracy:', 100. * adv_filter_correct / total)
 
 make_adv_captcha(0)
